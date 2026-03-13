@@ -1,0 +1,2 @@
+num = int(input("Enter number: "))
+print("Double is:", num * 2)
