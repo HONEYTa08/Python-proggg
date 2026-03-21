@@ -1,0 +1,2 @@
+while True:
+  print("Loop 1 will run forever!")
