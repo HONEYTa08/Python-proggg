@@ -1,0 +1,8 @@
+# Find position of a character
+
+text = input("Enter a string: ")
+char = input("Enter a character to find: ")
+
+position = text.find(char)
+
+print("Position:", position)
