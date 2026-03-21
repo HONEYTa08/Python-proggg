@@ -1,0 +1,9 @@
+# Replace word in a string
+
+text = input("Enter a sentence: ")
+old = input("Word to replace: ")
+new = input("New word: ")
+
+result = text.replace(old, new)
+
+print("Updated string:", result)
