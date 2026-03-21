@@ -1,0 +1,12 @@
+# Remove punctuation
+
+text = input("Enter a string: ")
+punctuation = "!@#$%^&*()_+-=.,/?"
+
+result = ""
+
+for ch in text:
+    if ch not in punctuation:
+        result += ch
+
+print("Clean string:", result)
