@@ -1,0 +1,9 @@
+rows = 5
+iter=1 
+while iter <= rows:
+  var_j=1
+  while var_j <= iter:
+    print(var_j,end='')
+    var_j += 1
+  print()
+  iter += 1
